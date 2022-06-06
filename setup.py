@@ -120,11 +120,11 @@ class CMakeBuild(build_ext):
 # The information here can also be placed in setup.cfg - better separation of
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
-    name="py_imu_trajectory",
+    name="chessBoardCornersDetector_pybind",
     version="1.0.0",
     description="pybind11 plugin for calculating trajectory of IMU using IMU readings.",
     long_description="",
-    ext_modules=[CMakeExtension("py_imu_trajectory")],
+    ext_modules=[CMakeExtension("chessBoardCornersDetector_pybind")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     python_requires=">=3.6",
